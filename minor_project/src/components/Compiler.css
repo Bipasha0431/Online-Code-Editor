@@ -1,0 +1,81 @@
+.compiler {
+  background-image: url("../images/complier.avif");
+}
+
+/* .getstart {
+  display: none;
+} */
+.ide {
+  font-size: 29px;
+  padding: 30px;
+
+  text-align: center;
+  background-color: rgb(211, 194, 173);
+  color: rgb(88, 52, 10);
+}
+.codesect,
+.inputsect {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+}
+.cont {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+.cont h3 {
+  font-size: 20px;
+}
+textarea {
+  overflow: scroll;
+  height: 100%;
+  width: 90%;
+  margin: 5px;
+}
+textarea:focus {
+  outline: 1px solid rgb(108, 45, 5);
+}
+.langu {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 12px;
+  padding: 10px;
+}
+.langu h2 {
+  font-size: 20px;
+  color: rgb(151, 67, 7);
+}
+
+fieldset h1 {
+  color: rgb(151, 67, 7);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 17px;
+}
+label {
+  padding: 3px;
+}
+input[type="radio"] {
+  accent-color: rgb(151, 67, 7);
+}
+input[type="submit"] {
+  background-color: rgb(151, 67, 7);
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 4px 12px;
+  margin: 12px 0px;
+  cursor: pointer;
+  width: 50%;
+}
+input[type="submit"]:hover {
+  background-color: rgb(200, 95, 20);
+}
+select option {
+  margin: 40px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,600&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: 0;
+  text-decoration: none;
+}
+.element {
+  all: none;
+}
+.App {
+  background-image: url("./images/home.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 35% right 0;
+  width: 100%;
+  height: 95vh;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px 40px;
+  padding: 50px;
+}
+.box h3 {
+  color: rgb(210, 61, 11);
+  font-family: "Cormorant Garamond";
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#intro {
+  width: 80%;
+  font-size: 19px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.containerQuestion {
+  position: relative;
+  display: table;
+  height: 95vh;
+  width: 95vw;
+}
+
+.question,
+.code-area {
+  padding: 25px;
+  display: table-cell;
+  width: 50%;
+}
+
+.question {
+  text-align: left;
+  position: absolute;
+  top: 0vh;
+}
+
+.code-area {
+  border-left: 2px solid navy;
+}
+
+.input,
+#results {
+  height: 60%;
+}
+
+.input {
+  border: 1px solid gray;
+  width: 90%;
+  font-family: monospace;
+  font-size: 12pt;
+  padding: 10px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: white;
+  font-weight: bolder;
+}

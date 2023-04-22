@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* > * {
+  font-family: "Poppins", cursive;
+  margin: 0;
+}
+
+.page {
+  /* background: rgb(14, 95, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 95, 107, 1) 12%,
+    rgba(245, 240, 238, 1) 37%,
+    rgba(240, 240, 240, 1) 66%,
+    rgba(11, 99, 113, 1) 89%
+  ); */
+
+  height: 100vh;
+  padding: 4% 20%;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 2px solid rgba(233, 107, 17, 0.705);
+  border-radius: 5px;
+  background-color: white;
+  justify-content: center;
+  padding: 20px 70px;
+}
+
+#form > input,
+.lgrg {
+  border: 1px solid #e9ecef;
+  padding: 0.9em 1em;
+}
+#form > .lgrg:hover {
+  background-color: rgb(154, 70, 11);
+}
+
+#form > input:focus {
+  outline: none;
+  border-bottom-color: rgb(154, 70, 11);
+}
+
+#form > .lgrg {
+  background-color: rgb(154, 70, 11);
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  gap: 1em;
+
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register .col-1 {
+  width: 50%;
+  text-align: center;
+}
+.col-1 h2 {
+  color: rgb(154, 70, 11);
+  margin-top: 5%;
+  font-size: 29px;
+}
+
+.register .col-2 {
+  width: 50%;
+}
+.register .col-2 img {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+}
+.btn1 p {
+  color: #adb5bd;
+}
+
+.btn2 {
+  color: rgb(154, 70, 11);
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  background: white;
+  text-decoration: none;
+  padding: 1px 3px;
+}
+.btn2:hover {
+  color: rgb(185, 91, 24);
+}
+/* .Register {
+  color: #ba4e10;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  background: white;
+} */
+
+@media screen and (min-width: 860px) {
+  .register .col-2 img {
+    display: initial;
+  }
+}
